@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor_principal {
+    background-color: hsl(244, 38%, 16%);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.contenedor_izquierdo {
+    background-color: hsl(244, 38%, 16%);
+    float: left;
+    margin-right: 0;
+}
+
+h1 {
+    color: white;
+    margin-left: 10% ;
+}
+
+strong {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 10% ;
+}
+
+.imagen {
+    float: right;
+    margin-left: 0;
+}
+
+img {
+    width: 45% ;
+    float: right;
+
+}
+
+h3 {
+    color: white;
+}
+
+span {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+}
+
+.contador {
+    display:flex;
+    margin-left: 10%;
+}
+
+.likes {
+    margin-right: 20%;
+}
